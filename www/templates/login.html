@@ -1,0 +1,9 @@
+<ion-view title="Facebook Login Example">
+    <ion-content>
+        <div class="padding">
+            <button ng-click="login()" ng-hide="changeBtn()" class="button button-block button-balanced">Sign In</button>
+<!--           <button class="button button-block button-balanced">Oauth Sign In</button>-->
+            <button ng-click="logout()" ng-hide="!changeBtn()" class="button button-block button-balanced">Logout {{profileData.name}}</button>
+        </div>
+    </ion-content>
+</ion-view>
